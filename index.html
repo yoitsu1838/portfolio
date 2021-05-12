@@ -2,9 +2,262 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>index.html</title>
+<title>KT's Portfolio</title>
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"  rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"  rel="stylesheet"/>
+<!-- MDB -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"  rel="stylesheet"/>
 </head>
 
 <body>
+<header> 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container-fluid"> <a class="navbar-brand" href="#">KT's Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbar"
+        aria-controls="navbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      > <i class="fas fa-bars"></i> </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active"> <a class="nav-link" aria-current="page" href="#">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#profile">Profile</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#education">EDUCATION</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#certification">Certification</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#skillAndActivity">Skill/Activity</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#links">Links</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar --> 
+</header>
+<section id="topPhoto"> 
+  <!-- Carousel wrapper -->
+  <div
+  id="carouselPhoto"
+  class="carousel slide carousel-fade0"
+  data-mdb-ride="carousel"
+> 
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button
+      type="button"
+      data-mdb-target="#carouselPhoto"
+      data-mdb-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+      <button
+      type="button"
+      data-mdb-target="#carouselPhoto"
+      data-mdb-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+      <button
+      type="button"
+      data-mdb-target="#carouselPhoto"
+      data-mdb-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+    </div>
+    
+    <!-- Inner -->
+    <div class="carousel-inner"> 
+      <!-- Single item -->
+      <div class="carousel-item active"> <img
+        src="images/s1.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>TDU オンライン学園祭2020</h5>
+          <p>コロナ禍によりオンラインでの開催となった学園祭に東京電機大学東京千住放送委員会の一員として参加しました。</p>
+        </div>
+      </div>
+      
+      <!-- Single item -->
+      <div class="carousel-item"> <img
+        src="images/s2.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>TDU オンライン学園祭2020</h5>
+          <p>コロナ禍によりオンラインでの開催となった学園祭に東京電機大学東京千住放送委員会の一員として参加しました。</p>
+        </div>
+      </div>
+      
+      <!-- Single item -->
+      <div class="carousel-item"> <img
+        src="images/s3.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>早稲田大学 イベント企画サークル</h5>
+          <p>早稲田大学の企画サークルに参加し、3年間学園祭に出展するトークイベントのコアスタッフとして参加しました。また、2019年度には企画長として企画の立ち上げを行いました。</p>
+        </div>
+      </div>
+    </div>
+    <!-- Inner --> 
+    
+    <!-- Controls -->
+    <button
+    class="carousel-control-prev"
+    type="button"
+    data-mdb-target="#carouselPhoto"
+    data-mdb-slide="prev"
+  > <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button>
+    <button
+    class="carousel-control-next"
+    type="button"
+    data-mdb-target="#carouselPhoto"
+    data-mdb-slide="next"
+  > <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+  </div>
+  <!-- Carousel wrapper --> 
+  
+</section>
+<section id="main">
+  <div class="container">
+    <section id="profile" class="mainPart pb-3">
+      <div class="row pt-5 pb-3 text-center">
+        <div class="col-12">
+          <h1>Profile</h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12 col-lg-4"><img src="images/mine.jpg" class="rounded-circle border" alt="KT(yoitsu)" />
+          <p>KT(yoitsu)</p>
+        </div>
+        <div class="col-12 col-lg-8">
+          <div class="card text-start">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">出身</h5>
+              <p class="card-text"> 神奈川県横浜市</p>
+              <h5 class="card-title fw-bold">趣味</h5>
+              <p class="card-text"> アニメ・音楽・映画鑑賞、ネットサーフィン</p>
+              <h5 class="card-title fw-bold">アルバイト</h5>
+              <p class="card-text"> <span class="fw-bold">2018年4月～現在</span><br>
+                <span style="padding-left: 15px;">コンサート・イベントスタッフ</span><br>
+                <span class="fw-bold">2018年10月～2020年10月</span><br>
+                <span style="padding-left: 15px;">明光ネットワークジャパン(個別指導塾 塾講師)</span><br>
+                <span class="fw-bold">不定期</span><br>
+                <span style="padding-left: 15px;">PCやiPadなどの簡単なキッティング作業など</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / -->
+    
+    <section id="education" class="mainPart pb-3">
+      <div class="row pt-5 pb-3 text-center">
+        <div class="col-12">
+          <h1>EDUCATION</h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="card text-start">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">2018年 3月</h5>
+              <p class="card-text"> 私立 山手学院高等学校 普通科 卒業</p>
+              <h5 class="card-title fw-bold">2018年 4月</h5>
+              <p class="card-text"> 私立 東京電機大学 未来科学部 情報メディア学科 入学</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / -->
+    
+    <section id="certification" class="mainPart pb-3">
+      <div class="row pt-5 pb-3 text-center">
+        <div class="col-12">
+          <h1>Certifications</h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="card text-start">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">2020年 12月</h5>
+              <p class="card-text"> TOEIC L&amp;R SCORE 690</p>
+              <h5 class="card-title fw-bold">2021年 1月</h5>
+              <p class="card-text"> 情報セキュリティマネジメント試験 合格</p>
+              <h5 class="card-title fw-bold">2021年 3月</h5>
+              <p class="card-text"> <a href="https://www.seccap.jp/basic/" target="_blank">enPiT</a> Basic SecCap 8 修了</p>
+              <!--h5 class="card-title fw-bold">2021年 5月</h5>
+              <p class="card-text"> 基本情報技術者 合格</p--> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / -->
+    
+    <section id="skillAndActivity" class="mainPart pb-3">
+      <div class="row pt-5 pb-3 text-center">
+        <div class="col-12">
+          <h1>Skills / Activities</h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="card text-start">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">2020年 12月</h5>
+              <p class="card-text"> TOEIC L&amp;R SCORE 690</p>
+              <h5 class="card-title fw-bold">2021年 1月</h5>
+              <p class="card-text"> 情報セキュリティマネジメント試験 合格</p>
+              <!--h5 class="card-title fw-bold">2021年 5月</h5>
+              <p class="card-text"> 基本情報技術者 合格</p--> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / -->
+    
+    <section id="links" class="mainPart pb-3">
+      <div class="row pt-5 pb-3 text-center">
+        <div class="col-12">
+          <h1>Links</h1>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="card text-start">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">github</h5>
+              <p class="card-text"> <a href="https://github.com/yoitsu1838" target="_blank">https://github.com/yoitsu1838</a></p>
+              <h5 class="card-title fw-bold">東京電機大学 東京千住放送委員会</h5>
+              <p class="card-text"> 映像班の一員として活動し、機材管理やオンライン学園祭など幅広い活動に参加してきました。<br>
+                <a href="https://tbc1010.com/" target="_blank">https://tbc1010.com</a></p>
+              <h5 class="card-title fw-bold">早稲田大学 アニメ声優会</h5>
+              <p class="card-text"> サークルの主要メンバーとして参加し、学園祭で主催するイベントの企画長、機材責任者やHPの運営など幅広く携わっています。<br>
+                <a href="https://wask.anisei.net/" target="_blank">https://wask.anisei.net</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / --> 
+    
+  </div>
+</section>
+
+<!-- MDB --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
 </body>
 </html>
